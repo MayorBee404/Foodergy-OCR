@@ -34,5 +34,5 @@ for i, Si in enumerate(S):
     MakeImg(Si, font, str(i) + '.png', MS, OFS)
     Y.append(str(i) + '.png,' + Si)
 #Write CSV file
-with open('Train.csv', 'w') as F:
+with open('Test.csv', 'w') as F:
     F.write('\n'.join(Y))
